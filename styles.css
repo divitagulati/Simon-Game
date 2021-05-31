@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  background-color:  #cfe2f7;
+}
+
+#level-title {
+  font-family: 'Lexend Giga', sans-serif;
+  font-size: 3rem;
+  margin:  5%;
+  color: #011F3F;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  /* border-radius: 20%; */
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  border-radius: 0% 0% 0% 30%;
+}
+
+.green {
+  background-color: green;
+  border-radius: 0% 0% 30% 0%;
+}
+
+.blue {
+  background-color: blue;
+  border-radius: 30% 0% 0% 0%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-radius: 0% 30% 0% 0%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
